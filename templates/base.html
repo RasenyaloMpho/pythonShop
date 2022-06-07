@@ -1,0 +1,39 @@
+{% extends "bootstrap/base.html" %}
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+
+            {%block title%}
+            
+            {%endblock%}
+            
+        </title>
+        {% block styles %}
+            {{ super() }}
+            <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+            {%endblock%}
+    </head>
+    
+
+    <body>
+
+        {%block content%}
+        
+        <input type="text">
+        <button onclick="red()"> red button</button>
+
+        {%endblock%}
+
+    {% block scripts %}
+        {{super()}}
+        <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+        <script src="{{url_for('static', filename='scripts/main.js')}}"></script>
+    {%endblock %}
+        
+    </body>
+
+    
+      
+</html>

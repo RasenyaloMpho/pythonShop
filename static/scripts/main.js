@@ -1,0 +1,1 @@
+function red(){alert("linked")}
