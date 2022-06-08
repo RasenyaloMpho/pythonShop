@@ -19,26 +19,11 @@ nav ul{
 ul li{
     display: inline; 
 }
-.search-icon{
-    border:1px solid red;
-    padding: 1px;
-    background-color: #ccc;
-    width:300px;
-}
-.search-icon input{
-    width:260px;
-    padding:5px;
-    font-size: 15px;
-    border:none;
-    outline:none;
-    color:black;
-}
-    
-
 ul li a{
     text-decoration: none;
     color:#ffffff;
     font-size: 18px;
+    font-weight: lighter;
 }
 ul li a:hover{
     text-decoration: none;
@@ -56,4 +41,33 @@ nav .logo{
     padding:5px;
     border: none;
     margin-left: 10px;
+}
+.search-icon{
+    border: 1px solid red;
+    width:300px;
+}
+.search-icon input{
+    width:270px;
+    padding:4.5px;
+    font-size: 15px;
+    border:none;
+    outline:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color:black;
+}
+ul li #search-span{
+    color: black;
+    height:inherit;
+    text-align: center;
+    margin-left: -3px;
+    background-color: #ccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding:7.9px 6px;
+    font-size: 15px;
+}
+ul li #search-span:hover{
+    color:aqua;
+    cursor: pointer;
 }
