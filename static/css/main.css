@@ -19,6 +19,9 @@ nav ul{
 ul li{
     display: inline; 
 }
+ul li:nth-child(even){
+    margin:0px 10px;
+}
 ul li a{
     text-decoration: none;
     color:#ffffff;
@@ -43,17 +46,18 @@ nav .logo{
     margin-left: 10px;
 }
 .search-icon{
-    border: 1px solid red;
-    width:300px;
+    width:500px;
+    margin-left: 20px;
 }
 .search-icon input{
-    width:270px;
+    width:94.5%;
     padding:4.5px;
-    font-size: 15px;
+    font-size: 15.2px;
     border:none;
     outline:none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    background-color: #ccc;
     color:black;
 }
 ul li #search-span{
@@ -64,10 +68,19 @@ ul li #search-span{
     background-color: #ccc;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding:7.9px 6px;
-    font-size: 15px;
+    background-color: black;
+    padding:7.7px 6px;
+    color:#ddd;
+    font-size: 13px;
 }
 ul li #search-span:hover{
     color:aqua;
     cursor: pointer;
+}
+.shopping-cart{
+    font-size: 20px;
+    border:1px solid red;
+}
+.nav-items{
+    top:45px;
 }
