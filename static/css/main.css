@@ -2,10 +2,14 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Montserrati',sans-serif;
+    font-family: sans-serif;
 }
 body{
-    background-color: rgb(240, 221, 221);
+    background-color: rgb(240, 232, 232);
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+    color: rgb(240, 232, 232)
 }
 nav{
     background-color: #222222;
